@@ -4,7 +4,7 @@ pipeline {
         label 'Nodejs_slave1'
     }
     stages {
-        stage('testing 123') {
+        stage('testing') {
             steps {
                 sh 'rpm -qa'
             }
