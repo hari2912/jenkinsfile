@@ -1,12 +1,12 @@
 
 pipeline {
     agent {
-        label 'master'
+        label 'Nodejs_slave1'
     }
     stages {
         stage('testing 123') {
             steps {
-                sh 'echo hello from master node'
+                sh 'rpm -qa'
             }
         }
     }
