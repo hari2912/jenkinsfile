@@ -1,7 +1,7 @@
 
 pipeline {
     agent {
-        label 'Nodejs_slave1'
+        label 'nodejs_1'
     }
     stages {
         stage('test12') {
